@@ -3,16 +3,16 @@
 include_once "interface/Kendaraan.php";
 
 class Kereta implements Kendaraan{
-    public function menampilkanKecepatan(): void
+    public function menampilkanKecepatan()
     {
-        echo "120 km/jam";
+        return "120 km/jam";
     }
-    public function menampilkanWarna(): void
+    public function menampilkanWarna()
     {
-        echo "Merah";
+        return "Merah";
     }
-    public function menampilkanJumlahPenumpang(): void
+    public function menampilkanJumlahPenumpang()
     {
-        echo "100 Orang";
+        return "100 Orang";
     }
 }

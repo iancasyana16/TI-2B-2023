@@ -1,17 +1,17 @@
 <?php
 
-include_once "inteface/Kendaraan.php";
+include_once "interface/Kendaraan.php";
 
 class Motor implements Kendaraan{
-    public function menampilkanKecepatan(): void{
-        echo "60 km/jam";
+    public function menampilkanKecepatan(){
+        return "60 km/jam";
     }
 
-    public function menampilkanWarna(): void{
-        echo "Putih";
+    public function menampilkanWarna(){
+        return "Putih";
     }
 
-    public function menampilkanJumlahPenumpang(): void{
-        echo "2 orang";
+    public function menampilkanJumlahPenumpang(){
+        return "2 orang";
     }
 }
